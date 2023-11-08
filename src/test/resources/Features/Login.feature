@@ -6,5 +6,6 @@ Feature: Login
     And User enters the ID as "admin@yourstore.com" and password as "admin"
     And Click on Login
     Then Page title should be "HOME"
+    And Url should be ""
 
  
