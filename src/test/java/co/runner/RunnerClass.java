@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources\\Features\\customers.feature",
                  glue="co.stepDefinition",
-                 dryRun=false,monochrome=false,
-                 plugin= {"pretty","html:test-output/rept.html"}
+                 dryRun=false,monochrome=true,
+                 plugin= {"pretty","html:test-output/repto.html"}
                 )
 public class RunnerClass {
 
