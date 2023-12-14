@@ -16,7 +16,7 @@ public class Steps extends BaseClass{
 	
 	@Given("User launches the chrome browser")
 	public void user_launches_the_chrome_browser() {
-	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\manoj\\eclipse-workspace\\Cucumber_practice\\drivers\\chromedriver.exe");
+	    //System.setProperty("webdriver.chrome.driver", "C:\\Users\\manoj\\eclipse-workspace\\Cucumber_practice\\driver\\chromedriver.exe");
 	    driver=new ChromeDriver();
 	    
 	}

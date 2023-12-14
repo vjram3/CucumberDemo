@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources\\Features\\customers.feature",
                  glue="co.stepDefinition",
                  dryRun=false,monochrome=true,
-                 plugin= {"pretty","html:test-output/rept.html"}
+                 plugin= {"pretty","html:test-output/repto.html"}
                 )
 public class RunnerClass {
 
